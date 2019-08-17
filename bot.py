@@ -1,8 +1,8 @@
 import discord
 import time
 from game import Game
+from token import t as botToken
 
-TOKEN = "NTEzOTQxMjk4MTYwMzM2OTI3.XVI1IA.oXllVWfa5sUxd8-CwsNgCLdKwoM"
 client = discord.Client()
 
 @client.event
@@ -67,5 +67,5 @@ async def on_reaction_add(reaction, user):
     #ez done game
     print("Working")
 
-client.run(TOKEN)
+client.run(botToken)
 
