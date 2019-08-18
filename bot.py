@@ -75,8 +75,17 @@ async def on_reaction_add(reaction, user):
     if (reaction.emoji not in used_reaction_ids) or (db_a[user.id].game_id != reaction.message.id):
         await reaction.remove(user)
         return
-        
+    
     # print("Working")
+    
+    if reaction.emoji == '🎣':
+        #stuff
+        
+    if reaction.emoji == 'ℹ':
+        #stuff
+        
+    if reaction.emoji == '⚙':
+        #stuff
 
 client.run(botToken)
 
