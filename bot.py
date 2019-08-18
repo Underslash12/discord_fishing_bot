@@ -79,13 +79,13 @@ async def on_reaction_add(reaction, user):
     # print("Working")
     
     if reaction.emoji == '🎣':
-        #stuff
+        print("Hook")
         
     if reaction.emoji == 'ℹ':
-        #stuff
+        print("Info")
         
     if reaction.emoji == '⚙':
-        #stuff
+        print("Gear")
 
 client.run(botToken)
 
